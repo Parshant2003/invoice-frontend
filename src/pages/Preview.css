@@ -1,0 +1,19 @@
+.template-btn {
+  border: 2px solid #343a40;
+  color: #343a40;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.template-btn:hover {
+  background-color: #d6d6d6; /* Gray on hover */
+  color: #000;
+}
+
+.selected-template {
+  background-color: #f1c40f; /* Dark yellow */
+  color: white;
+  border-color: #f1c40f;
+}
+
+
