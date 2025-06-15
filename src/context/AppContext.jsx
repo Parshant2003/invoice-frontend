@@ -70,8 +70,8 @@ const initialInvoiceData = {
     eInvoice:''
 }
 
+const baseURL = "https://invoice-backend-production-7599.up.railway.app/api";
 
-const baseURL="http://localhost:8080/api"
 export const AppContextProvider = ({ children }) => {
     const [invoiceTitle, setInvoiceTitle] = useState("New Invoice");
     const [invoiceData, setInvoiceData] = useState(initialInvoiceData);
